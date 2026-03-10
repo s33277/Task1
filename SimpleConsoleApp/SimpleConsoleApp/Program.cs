@@ -1,3 +1,3 @@
 ﻿Console.WriteLine("Hello, World!");
 
-StatisticsHelper.GetAverage();
+Console.WriteLine(StatisticsHelper.GetAverage());
