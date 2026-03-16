@@ -15,7 +15,7 @@
                 nums.append(userNum);
             }
 
-            Console.WriteLine("Average: " + StatisticsHelper.GetAverage(userNums));
+            Console.WriteLine("Average: " + StatisticsHelper.CalculateAverage(userNums));
         }
     }
 }
