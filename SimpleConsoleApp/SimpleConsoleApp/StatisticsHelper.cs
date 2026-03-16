@@ -9,5 +9,10 @@
 		{
 			return userNums.Average();
 		}
+
+		public static double CalculateMax(int[] userNums)
+		{
+			return userNums.Max();
+		}
 	}
 }
