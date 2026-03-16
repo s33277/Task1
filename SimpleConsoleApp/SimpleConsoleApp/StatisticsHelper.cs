@@ -2,7 +2,7 @@
 
 public class StatisticsHelper
 {
-	public static void GetAverage()
+	public static int GetAverage()
 	{
 		Console.WriteLine("Enter some nums to find the average:");
 
@@ -10,7 +10,6 @@ public class StatisticsHelper
 		string[] userNums = userNumsString.Split();
 		List<int> nums = new List<int>();
 		foreach (string n in userNums) nums.Add(int.Parse(n));
-		int average = (int)nums.Average();
-		Console.WriteLine("Average = " + average);
+		return (int)nums.Average();
 	}
 }
