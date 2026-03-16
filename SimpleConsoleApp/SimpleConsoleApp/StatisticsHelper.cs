@@ -15,6 +15,9 @@
 			return userNums.Max();
 		}
 
-		public static double CalculateMin(int[] userNums) {}
+		public static double CalculateMin(int[] userNums)
+		{
+			return userNums.Min();
+		}
 	}
 }
