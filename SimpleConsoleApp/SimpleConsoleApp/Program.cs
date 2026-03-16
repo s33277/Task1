@@ -11,6 +11,7 @@
             string[] userNums = userNumsString.Split();
 
             Console.WriteLine("Average: " + StatisticsHelper.GetAverage(userNums));
+            Console.ReadLine();
         }
     }
 }
