@@ -5,19 +5,19 @@
 
 	public class StatisticsHelper
 	{
-		public static double CalculateAverage(int[] userNums)
+		public static double CalculateAverage(int[] nums)
 		{
-			return userNums.Average();
+			return nums.Average();
 		}
 
-		public static double CalculateMax(int[] userNums)
+		public static double CalculateMax(int[] nums)
 		{
-			return userNums.Max();
+			return nums.Max();
 		}
 
-		public static double CalculateMin(int[] userNums)
+		public static double CalculateMin(int[] nums)
 		{
-			return userNums.Min();
+			return nums.Min();
 		}
 	}
 }
