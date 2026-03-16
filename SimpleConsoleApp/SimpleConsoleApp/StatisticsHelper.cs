@@ -5,7 +5,7 @@
 
 	public class StatisticsHelper
 	{
-		public static double CalculateAverage(string[] userNums)
+		public static double CalculateAverage(int[] userNums)
 		{
 			return userNums.Average();
 		}
